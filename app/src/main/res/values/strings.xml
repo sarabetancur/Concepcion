@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Concepcion</string>
+
+    <string name="btn1">Naturaleza</string>
+    <string name="btn2">Arquitectura</string>
+
+    <string name="naturaleza1">
+        Como principales atractivos naturales se encuentran el balneario Charco de los Payasos. el Alto de
+        la Virgen al que se llega por un sendero ecológico, las Cascadas de Matasanos, el Charco del Aguacate y la Finca Villa Linda.
+        Igualmente, los turistas pueden alquilar caballos y hacer recorridos en moto taxis por todo el municipio.
+    </string>
+
+
+    <string name="naturaleza2">
+        Cascadas, charcos y cerros
+    </string>
+
+    <string name="calles1">
+        El Pueblo. Conserva en su estructura la arquitectura colonial del siglo XVIII y del siglo XIX.
+        Se caracteriza por el trazado de sus calles estrechas, empedradas o adoquinadas, con casas de paredes
+        blancas, puertas y ventanas pintadas de
+        colores vivos, que le mereciera el título de Patrimonio Cultural y Arquitectónico.
+    </string>
+
+    <string name="calles2">
+        Calles coloridas
+    </string>
+
+
+    <string name="comer1">
+        Gastronomía. Cocina paisa, sancocho de pescado en "Las Partidas" y toda clase de frutas, especialmente guayaba y piña.
+    </string>
+
+    <string name="comer">
+        El pueblo y sus placeres
+    </string>
+
+
+
+</resources>
