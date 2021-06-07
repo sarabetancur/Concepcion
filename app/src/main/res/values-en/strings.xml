@@ -1,8 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Concepcion</string>
-    <string name="btn1">Acerca de</string>
-    <string name="btn2">Ingles</string>
-    <string name="btn3">Español</string>
+    <string name="btn1">About me</string>
+    <string name="btn2">Englsih</string>
+    <string name="btn3">Spanish</string>
 
     <string name="naturaleza1">
         Como principales atractivos naturales se encuentran el balneario Charco de los Payasos. el Alto de
@@ -28,12 +29,13 @@
 
     <string name="perfilNombre">SARA BETANCUR OCAMPO</string>
 
-    <string name="perfil">Diseñadora gráfica con experiencia en coordinación y ejecución de proyectos desde la conceptualización, diseño,
-        producción y montaje de espacios efímeros y experiencias BTL, actualmente estudiante de desarrollo de software inclinada por el
-        desarrollo front end. Amante de los gatos, soñadora y con ganas de recorrer el mundo.
-    </string>
+    <string name="perfil">Graphic designer with experience in project coordination and execution from conceptualization, design,
+        production and assembly experiences BTL, Now I am a software development student inclined by the
+        front end development. Cat lover, dreamer and I want to travel around the world.
+</string>
 
-    <string name="verMas">VER MÁS</string>
+    <string name="verMas">See more</string>
+
 
 
 </resources>

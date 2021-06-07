@@ -26,7 +26,7 @@
         android:layout_height="wrap_content"
         android:animateLayoutChanges="true"
         android:orientation="vertical"
-        android:background="#FDCC17"
+        android:background="#43B27D"
         >
 
 
@@ -34,8 +34,8 @@
             android:id="@+id/fotoActividadNaturaleza"
             android:layout_width="wrap_content"
             android:layout_height="200dp"
-            app:srcCompat="@drawable/intro"
             app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/intro"
             />
 
         <TextView
@@ -44,14 +44,14 @@
             android:layout_height="40dp"
             android:fontFamily="@font/blackwoff2"
             android:text="NATURALEZA Y AVENTURA"
-            android:textColor="#CC3426"
+            android:textColor="#154739"
             android:textAlignment="center"
             android:textSize="20dp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             android:paddingTop="3dp"
-            android:background="#FDCC17"
+            android:background="#43B27D"
             />
 
         <TextView
@@ -68,20 +68,19 @@
             android:paddingBottom="10dp"
             android:paddingRight="20dp"
             android:paddingLeft="20dp"
-            android:background="#FDCC17"
+            android:background="#43B27D"
             />
 
         <ImageView
-            android:id="@+id/iconos"
+            android:id="@+id/fotoIconos"
             android:layout_width="wrap_content"
-            android:layout_height="50dp"
-            app:srcCompat="@drawable/iconos"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:background="#0E322C"
+            android:layout_height="60dp"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="#0E322C"
+            android:src="@drawable/iconos"
             />
-
 
 
 

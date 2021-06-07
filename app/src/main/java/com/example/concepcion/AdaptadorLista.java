@@ -2,6 +2,7 @@ package com.example.concepcion;
 
 import android.content.Intent;
 import android.os.Parcelable;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +11,8 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 
@@ -45,7 +48,8 @@ public class AdaptadorLista extends RecyclerView.Adapter<AdaptadorLista.viewHold
 
         TextView tituloActividad;
         ImageView fotoActividad;
-        TextView descripcionActividad, descripcionNaturaleza;
+        TextView descripcionActividad;
+        TextView descripcionNaturaleza;
 
         public viewHolder(@NonNull View itemView) {
             super(itemView);
@@ -53,14 +57,18 @@ public class AdaptadorLista extends RecyclerView.Adapter<AdaptadorLista.viewHold
           tituloActividad=itemView.findViewById(R.id.tituloActividad);
           fotoActividad=itemView.findViewById(R.id.fotoActividad);
           descripcionActividad=itemView.findViewById(R.id.descripcionActividad);
-
+          descripcionNaturaleza=itemView.findViewById(R.id.descripcionNaturaleza);
 
         }
 
         public void actualizarDatosDeItem(final Actividad actividad) {
 
-            fotoActividad.setImageResource(actividad.getFotoActividad());
             tituloActividad.setText(actividad.getTituloActividad());
+
+            Picasso.with(itemView.getContext())
+                .load(actividad.getFotoActividad())
+                .into(fotoActividad);
+
             descripcionActividad.setText(actividad.getDescripcionActividad());
 
 

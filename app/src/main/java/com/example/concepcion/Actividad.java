@@ -4,11 +4,12 @@ import java.io.Serializable;
 
 public class Actividad implements Serializable {
 
-    int fotoActividad;
+    String fotoActividad;
     String tituloActividad;
-    String descripcionActividad, descripcionNaturaleza;
+    String descripcionActividad;
+    String descripcionNaturaleza;
 
-    public Actividad(int fotoActividad, String tituloActividad, String descripcionActividad, String descripcionNaturaleza) {
+    public Actividad(String fotoActividad, String tituloActividad, String descripcionActividad, String descripcionNaturaleza) {
         this.fotoActividad = fotoActividad;
         this.tituloActividad = tituloActividad;
         this.descripcionActividad = descripcionActividad;
@@ -16,11 +17,11 @@ public class Actividad implements Serializable {
 
     }
 
-    public int getFotoActividad() {
+    public String getFotoActividad() {
         return fotoActividad;
     }
 
-    public void setFotoActividad(int fotoActividad) {
+    public void setFotoActividad(String fotoActividad) {
         this.fotoActividad = fotoActividad;
     }
 
@@ -31,6 +32,7 @@ public class Actividad implements Serializable {
     public void setTituloActividad(String tituloActividad) {
         this.tituloActividad = tituloActividad;
     }
+
 
     public String getDescripcionActividad() {
         return descripcionActividad;

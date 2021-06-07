@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "367522651860",
+    "project_id": "concepcion-5e80c",
+    "storage_bucket": "concepcion-5e80c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:367522651860:android:f218725fc7241ea6fa6541",
+        "android_client_info": {
+          "package_name": "com.example.concepcion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "367522651860-lc67s6h77734c1j0e0rv4orjpa6fv2en.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEUuWnFe3PTKQKC0_wUu6Y5rP3Nsv7ZzQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "367522651860-lc67s6h77734c1j0e0rv4orjpa6fv2en.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
